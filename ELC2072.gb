@@ -1,0 +1,312 @@
+LOCUS       Exported                4869 bp ds-DNA     linear   SYN 21-FEB-2018
+DEFINITION  3-piece linear Gibson to insert cgeD::[PcomGA mApple2 kan] directly 
+            into B. subtilis chromosome.
+            
+            Amplicon 1: oELC2004 and oELC2005 from AG174 gDNA (1.1 Kb)
+            
+            Amplicon 2: oELC2006 and oELC2007 from AG174 gDNA (440 bp)
+            
+            Amplicon 3: oELC2008 and oELC2009 from pSAM019 (linearize with two 
+            restriction enzymes first) (3.3 Kb)
+            
+            Gibson reaction - all three pieces - then transform directly into 
+            FRESH AG174 comp cells
+            	(Must be fresh - and grow up with MgSO4 in LB starter culture - 
+            otherwise you will have very low efficiency)
+            
+            Diagnostic PCRs - oELC2010 and oELC2012 can be used to double check 
+            insertion went in where we thought (~400 bp in AG174 without insert,
+            ~2.7 Kb with insert).
+            
+            oELC2011 can be used for sequencing mApple2.
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  recombinant plasmid
+REFERENCE   1  (bases 1 to 4869)
+  AUTHORS   .
+  TITLE     Direct Submission
+  JOURNAL   Exported Apr 14, 2018 from SnapGene 4.0.5
+            http://www.snapgene.com
+FEATURES             Location/Qualifiers
+     source          1..4869
+                     /organism="recombinant plasmid"
+                     /mol_type="other DNA"
+     misc_feature    1..1187
+                     /label=Amplicon 1
+     CDS             complement(1..350)
+                     /codon_start=1
+                     /transl_table=11
+                     /gene="cgeE"
+                     /locus_tag="BSUA_02129"
+                     /product="spore coat maturation protein"
+                     /label=cgeE
+                     /db_xref="GI:649011358"
+                     /protein_id="AIC40412.1"
+                     /translation="MTGHYSKTEHQYILLTSESASFDHYSVYRDPQLPQIFSHNFVQLH
+                     DTFPLERLLNFLPSVPKLLDANYLHLKASPQHVFPLGLKQSLVKSGFVVEDELLYDMKL
+                     SDWKGQMGHPLT"
+     gene            complement(1..350)
+                     /gene="cgeE"
+                     /locus_tag="BSUA_02129"
+                     /label=cgeE
+     primer_bind     1..26
+                     /label=oSAM073
+                     /note="for amplification of upstream region for integration
+                     at cgeD"
+     primer_bind     1..23
+                     /label=oELC2004
+     primer_bind     1..23
+                     /label=cgeD_cgeA_forward [oAR20]
+     misc_feature    complement(1)
+                     /label=cgeDback
+     CDS             complement(379..1170)
+                     /codon_start=1
+                     /transl_table=11
+                     /gene="cgeD"
+                     /locus_tag="BSUA_02130"
+                     /product="spore coat maturation protein"
+                     /label=cgeD
+                     /db_xref="GI:649011359"
+                     /protein_id="AIC40413.1"
+                     /translation="HRRSLLNLIHHKFGGYWDDDMKHWNHGDAIFWARLNNFTPFLPIN
+                     EVLDTTYKTPDSFQNAYRFLPADLIDGSFVKGSDQNVYFFDQGVRHPVGEKWGFLYLNR
+                     TVAVPDPYLFQYRIGKILNIPNYILVKEADHPAIFYIEAGKKRRIVDQYAFQFYQFQRK
+                     DIVTIGKEEMETLPEGPPITWKRSELIKNPPGRRLFFIEREPFLFLNGVFHPISEQVTR
+                     KFFLHQKPISASFRNIQQFPIGKPFYPVYDEIIKKLNIATE"
+     gene            complement(379..1170)
+                     /gene="cgeD"
+                     /locus_tag="BSUA_02130"
+                     /label=cgeD
+     primer_bind     577..601
+                     /label=oSAM068
+                     /note="primer to check the left junction of cgeD insert, 
+                     binds outside of region of homology (for use with pSAM007);
+                     can be used as sequencing primer for other cgeD integration
+                     construct"
+     primer_bind     1085..1104
+                     /label=oELC2010
+     primer_bind     complement(1147..1178)
+                     /label=oSAM072
+                     /note="reverse primer for amplify uppstream region of cgeD 
+                     integration"
+     primer_bind     complement(1163..1187)
+                     /label=oELC2005
+     primer_bind     complement(1163..1187)
+                     /label=cgeD_ComGA_reverse [oAR17]
+     misc_feature    1168..1607
+                     /label=Amplicon 2
+     primer_bind     1168..1205
+                     /label=oELC2006
+     primer_bind     1168..1205
+                     /label=cgeD_ComGA_forward [oAR16]
+     misc_feature    1179..1593
+                     /label=ComGA promoter?
+     primer_bind     complement(1562..1601)
+                     /label=oELC2007
+     primer_bind     1579..1620
+                     /label=oELC2008
+     misc_feature    1586..4869
+                     /label=Amplicon 3
+     primer_bind     1586..1614
+                     /label=ComGA_mApple2_forward [oAR18]
+     primer_bind     complement(1587..1614)
+                     /label=ComGA_mApple2_reverse [oAR19]
+     primer_bind     1594..1635
+                     /label=oSAM149
+                     /note="Fwd primer for mApple2, adds spoVG RBS and has 
+                     homology to Ppen fragment"
+     misc_feature    1594
+                     /label='Ppen
+     misc_feature    1594
+                     /label=ComGA RBS?
+     RBS             1595..1606
+                     /label=spoVG RBS
+     misc_feature    1595
+                     /label='mCherry
+     primer_bind     1607..1641
+                     /label=oSAM164
+                     /note="Forward primer for mApple2 with homology to TetR"
+     CDS             1612..2322
+                     /codon_start=1
+                     /label=mApple2
+                     /translation="MVSKGEENNMAIIKEFMRFKVHMEGSVNGHEFEIEGEGEGRPYEA
+                     FQTAKLKVTKGGPLPFAWDILSPQFMYGSKVYIKHPADIPDYFKLSFPEGFRWERVMNF
+                     EDGGIIHVNQDSSLQDGVFIYKVKLRGTNFPSDGPVMQKKTMGWEASEERMYPEDGALK
+                     SEIKKRLKLKDGGHYAAEVKTTYKAKKPVQLPGAYIVDIKLDIVSHNEDYTIVEQYERA
+                     EGRHSTGGMDELYK"
+     primer_bind     complement(2291..2350)
+                     /label=oSAM150
+                     /note="Reverse primer for mApple2 with homology to pSAM014 
+                     cgeD integration vector"
+     primer_bind     complement(2291..2322)
+                     /label=oSAM165
+                     /note="Rvs primer for mApple2 with homology to SacI insert"
+     primer_bind     complement(2291..2319)
+                     /label=oSAM161
+                     /note="rvs primer for mApple2 with homology to parB"
+     primer_bind     complement(2304..2329)
+                     /label=oSAM144
+                     /note="Reverse primer against CFP, use Gibson reaction with
+                     homology to C-terminal end of Floxed KAN"
+     misc_feature    complement(2429..3223)
+                     /label=KanR
+                     /note="kanamycin resistance gene"
+     primer_bind     complement(2506..2527)
+                     /label=oELC2011
+     primer_bind     3615..3641
+                     /label=oSAM071
+     primer_bind     3727..3779
+                     /label=oSAM074
+                     /note="amplify region of homology for cgeD integration, use
+                     with oSAM075"
+     CDS             complement(3750..3911)
+                     /codon_start=1
+                     /transl_table=11
+                     /gene="cgeD"
+                     /locus_tag="BSUA_02130"
+                     /product="spore coat maturation protein"
+                     /label=cgeD
+                     /db_xref="GI:649011359"
+                     /protein_id="AIC40413.1"
+                     /translation="MGEKVSIILTSYNKPDYLQKAIESVIQQTHDLWELFIMDDHSNAE
+                     TTAVIHKYL"
+     gene            complement(3750..3911)
+                     /gene="cgeD"
+                     /locus_tag="BSUA_02130"
+                     /label=cgeD
+     misc_feature    complement(3752)
+                     /label=cgeDfront
+     primer_bind     complement(3830..3851)
+                     /label=oELC2012
+     CDS             complement(3976..4281)
+                     /codon_start=1
+                     /transl_table=11
+                     /gene="cgeC"
+                     /locus_tag="BSUA_02131"
+                     /product="spore coat maturation protein"
+                     /label=cgeC
+                     /db_xref="GI:649011360"
+                     /protein_id="AIC40414.1"
+                     /translation="MDLEKQVDREENQDDLHFILLLLILLIRQSSSEGNPSDLRRQLVF
+                     AKELGVPVSKVNLINGDTLQNVIVKEVLTDLVIFQNPLNNTRSHVSLSSVVSWGAF"
+     gene            complement(3976..4281)
+                     /gene="cgeC"
+                     /locus_tag="BSUA_02131"
+                     /label=cgeC
+     primer_bind     complement(4257..4293)
+                     /label=oSAM070
+                     /note="binds outside the region of homology for pMMB124 
+                     based vectors, use to check for insert into cgeD; can be 
+                     used as sequencing primer for other cgeD integration 
+                     vectors"
+     CDS             4486..4855
+                     /codon_start=1
+                     /transl_table=11
+                     /gene="cgeA"
+                     /locus_tag="BSUA_02132"
+                     /product="spore outermost layer component"
+                     /label=cgeA
+                     /db_xref="GI:649011361"
+                     /protein_id="AIC40415.1"
+                     /translation="MSSENAQLKKDLIKAVLSPLFPTATEGGENMDSNLKALLDAAIDQ
+                     KVDESETVTAESILDPSLPARWIFARITPGTTISIVTDSGDMIGPVVFVAFDQVHGIVF
+                     VTQESSVTPAGQATTLIDV"
+     gene            4486..4855
+                     /gene="cgeA"
+                     /locus_tag="BSUA_02132"
+                     /label=cgeA
+     primer_bind     complement(4824..4869)
+                     /label=oSAM075
+                     /note="downstream of cgeD with homology to pMMB124"
+     primer_bind     complement(4824..4849)
+                     /label=oELC2009
+     primer_bind     complement(4841..4869)
+                     /label=cgeA_cgeD_reverse [oAR21]
+     misc_feature    complement(4860..4869)
+                     /label=lacZ'''
+ORIGIN
+        1 gcggttaaag gatgtcccat ctgccccttc cagtcactaa gcttcatgtc atatagtagc
+       61 tcatcctcga cgacaaaacc gctttttaca agtgactgct tcaaaccgag cggaaaaaca
+      121 tgctgcggcg acgcttttaa atggagataa ttcgcatcaa gcagctttgg tacggagggt
+      181 aaaaagttaa gtaaccgctc caatggaaac gtatcatgga gctgaacaaa gttatgagaa
+      241 aaaatttgcg gaagctgcgg atctctgtat acgctgtaat gatcaaacga tgccgattca
+      301 gacgttaaca atatatattg atgttccgtt tttgaataat gtcctgtcat gaacgtctcc
+      361 tttttatgac ctataccttt actctgttgc aatattcaat ttctttataa tctcatcgta
+      421 caccggataa aacggctttc caattggaaa ttgctgaata tttcggaaag aagcggagat
+      481 tggcttctga tgtaaaaaaa acttccttgt tacttgttca ctaatcgggt gaaagacgcc
+      541 gtttagaaac aaaaacggct cgcgttcgat gaaaaacaga cgtcggccag gcggattttt
+      601 gatcaattca gatcgtttcc acgtaatcgg cggcccttcc ggaagcgtct ccatctcttc
+      661 ttttccaatt gtcactatgt cttttctttg aaattgataa aattgaaacg catactggtc
+      721 cacaattcgc cttttttttc cggcttcgat ataaaatatt gcaggatggt cagcttcctt
+      781 tactaaaata taattcggaa tgtttaaaat tttgccaatc ctatattgga ataaatatgg
+      841 gtctggaaca gcgacagtcc gatttagata caaaaaaccc cacttttctc caacaggatg
+      901 ccttacaccc tgatcaaaaa aatacacatt ttgatctgaa ccttttacaa aagagccgtc
+      961 aatcaaatcg gcgggcagaa accgatatgc attttgaaat gaatctgggg ttttataggt
+     1021 tgtgtctaat acttcattta tcggcagaaa tggggtaaag ttgttgagtc tcgcccaaaa
+     1081 aattgcgtcg ccatgattcc aatgcttcat atcatcatcc cagtagcctc caaatttatg
+     1141 gtgaatgaga ttaagtaacg aacggcgatg ggtacccgaa aaaggcggac tctataggat
+     1201 gtttcatatt ttgtgcagcg tgccccgctt tttcaccaga catatcaggg tgaccggata
+     1261 cgatgtcaag gggcttatga cagagcatta aatccgcagt ttatcgattc ttgaaaatga
+     1321 ccaaatgacc ggtattgttg cattaggcga tctttccgtt gagaaagata ctggtcaata
+     1381 agcgaaaaca gcataatgaa aatggaatct agcaggcatg gtgaccatgt ctgctttttt
+     1441 atttataggg aaaattataa tgacaggggt acattcagtt gaaagtcttt tttcttgcca
+     1501 gaaagaattg gtttttcagc atataacatc tcacaaaatc acgttttccc tgtttgatta
+     1561 ccttttcttc tttttctaca atatgcgttg aaagaaaggt ggtgaactac tatggtgtcc
+     1621 aaaggcgaag agaacaatat ggcaattatc aaagagttta tgcgatttaa ggtacacatg
+     1681 gaaggcagtg taaacggcca tgagtttgag atagaaggag aaggggaagg tagaccgtat
+     1741 gaagcatttc aaactgctaa actaaaagtt acgaagggcg gaccgctgcc gttcgcgtgg
+     1801 gatatcttgt caccacaatt catgtatgga agcaaagtgt atatcaaaca tcccgcagat
+     1861 attcctgact actttaaact tagctttccg gaaggctttc gttgggaacg cgtgatgaat
+     1921 tttgaagatg gaggaattat ccacgttaac caggacagtt ctttacagga tggggtgttc
+     1981 atatacaagg ttaaactccg tggaacaaat ttcccttcag acggcccagt catgcaaaag
+     2041 aaaacaatgg gatgggaagc ctctgaggaa cggatgtatc ctgaagatgg ggctttgaaa
+     2101 tcagagatta agaaaaggct gaaacttaaa gatggcgggc attatgccgc ggaggttaaa
+     2161 acgacctata aagcgaaaaa gcctgtccaa cttccgggtg cctatattgt agatatcaaa
+     2221 ttagatattg tcagccataa tgaggactac acaattgtcg aacagtacga aagagctgaa
+     2281 ggccgccatt cgacaggtgg tatggacgaa ctgtataagt aaggatcctc tagacatcag
+     2341 agtatggaca gttgcggatg tacttcagaa aagattagat gtctaaaaag cttgtagtta
+     2401 aagcttttta gacatctaaa tctaggtact aaaacaattc atccagtaaa atataatatt
+     2461 ttattttctc ccaatcaggc ttgatcccca gtaagtcaaa aaatagctcg acatactgtt
+     2521 cttccccgat atcctccctg atcgaccgga cgcagaaggc aatgtcatac cacttgtccg
+     2581 ccctgccgct tctcccaaga tcaataaagc cacttacttt gccatctttc acaaagatgt
+     2641 tgctgtctcc caggtcgccg tgggaaaaga caagttcctc ttcgggcttt tccgtcttta
+     2701 aaaaatcata cagctcgcgc ggatctttaa atggagtgtc ttcttcccag ttttcgcaat
+     2761 ccacatcggc cagatcgtta ttcagtaagt aatccaattc ggctaagcgg ctgtctaagc
+     2821 tattcgtata gggacaatcc gatatgtcga tggagtgaaa gagcctgatg cactccgcat
+     2881 acagctcgat aatcttttca gggctttgtt catcttcata ctcttccgag caaaggacgc
+     2941 catcggcctc actcatgagc agattgctcc agccatcatg ccgttcaaag tgcaggacct
+     3001 ttggaacagg cagctttcct tccagccata gcatcatgtc cttttcccgt tccacatcat
+     3061 aggtggtccc tttataccgg ctgtccgtca tttttaaata taggttttca ttttctccca
+     3121 ccagcttata taccttagca ggagacattc cttccgtatc ttttacgcag cggtattttt
+     3181 cgatcagttt tttcaattcc ggtgatattc tcattttagc catttattat ttccttcctc
+     3241 ttttctacag tatttaaaga taccccaaga agctaattat aacaagacga actccaattc
+     3301 actgttcctt gcattctaaa accttaaata ccagaaaaca gctttttcaa agttgttttg
+     3361 aaagttggcg tataacatag tatcgacgga gccgattttg aaaccacaat tatgatagaa
+     3421 tttacaagct ataaggttat tgtcctgggt ttcaagcatt agtccatgca agtttttatg
+     3481 ctttgcccat tctatagata tattgataag cgcgctgcct atgccttgcc ccctgaaatc
+     3541 cttacatacg gcgatatctt ctatataaaa gatatattat cttatcagta ttgtcaatat
+     3601 attcaaggca atctgcctcc tcatcctctt catcctcttc gtcttggtag ctttttaaat
+     3661 atggcgcttc atagagtaat tctgtaaagg tccaattctc gttttcatac ctcggtataa
+     3721 tcttacctat cacctcaaat ggttctctag agatacttgt gaatcaccgc agttgtttct
+     3781 gcattcgaat gatcatccat gataaaaagc tcccaaagat catgcgtttg ctgtatcacg
+     3841 ctttcgatcg ctttttgcaa ataatcgggt ttgttgtaac ttgttaaaat aatagacact
+     3901 ttctctccca tctataccgc ctcccgccgt caaacataaa aacggctccg cagcaagcag
+     3961 agcctctgtc atcatttaaa aagcacccca gcttacaaca cttgagagtg aaacatgaga
+     4021 tctcgtgtta tttaacgggt tttggaaaat aaccaaatca gtcagaactt cttttacgat
+     4081 gacattttga agtgtatctc cgttgatcaa attgactttt gaaaccggta cgcccagctc
+     4141 ttttgcaaaa acaagctggc gtctgaggtc agatggattt ccttcagaag acgattgacg
+     4201 tatcagcaga atcagcaaaa gcaaaataaa atgcagatca tcttggtttt cttctcgatc
+     4261 cacttgtttc tctaaatcca aatcatccct ctcccttatc cttatctctg tttcacaata
+     4321 tgtgcgactt cgatttatgg tataggctat gtccactcca ttaaaaaatc agcattttcc
+     4381 ttaaatagat gaaaaataga tcaggtacgg cgttcgactc ataccaaata acagccggaa
+     4441 gaatatgaat aacgtgagtt cactatcgaa taggaggtgt gtgtaatgag ctctgaaaat
+     4501 gcacagttaa aaaaggattt aattaaagcc gttttaagcc ctttatttcc aactgcaaca
+     4561 gaaggaggag aaaatatgga tagtaatctt aaagccttgc ttgatgctgc catcgatcaa
+     4621 aaagtagatg aaagtgaaac ggttacggca gaatctattt tagacccttc tcttccggca
+     4681 agatggattt ttgccagaat tacgccaggc actacaatca gcattgtgac tgattcaggt
+     4741 gacatgatcg gaccggttgt tttcgttgct ttcgatcagg ttcacgggat cgtatttgta
+     4801 acacaggaaa gctccgtcac tccggcaggc caagctacaa cattaattga tgtagcatgc
+     4861 aagcttgag
+//

@@ -1,0 +1,35 @@
+LOCUS       Exported                1000 bp ds-DNA     circular SYN 14-APR-2018
+DEFINITION  ROM230_comX_oELC355__2017-09-28_E01.
+ACCESSION   .
+VERSION     .
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+REFERENCE   1  (bases 1 to 1000)
+  AUTHORS   .
+  TITLE     Direct Submission
+  JOURNAL   Exported Apr 14, 2018 from SnapGene 4.0.5
+            http://www.snapgene.com
+FEATURES             Location/Qualifiers
+     source          1..1000
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+ORIGIN
+        1 gttttaatga gattccgata tttcttctat cataaattga cttttatcat ttttatgaat
+       61 cttagtccca ataataattc cattcatact gatataagtt gtatagctta tataaaggat
+      121 actcaaaaca attacagcta ttgtgaattt ttttattaag ttcttcaata ttaatccacc
+      181 tattaatcac cccattgacg ggttattgga tcagccagat aataatcatt ataagctgat
+      241 ccccctatgc aagggtttat tgttttctaa aatctgatta ccaattagaa tgaatatttc
+      301 ccaaatatta aataataaaa caaaaaaatt gaaaaaagtg tttccaccat tttttcaatt
+      361 tttttataat ttttttaatc tgttatttaa atagtttata gttaaattta cattttcatt
+      421 agtccattca atattctctc caagataact acgaactgct aacaaaattc tctccctatg
+      481 ttctaatgga gaagattcag ccactgcatt tcccgcaata tcttttggta tgattttacc
+      541 cgtgtccata gttaaaatca tacggcataa agttaatata gagttggttt catcatcctg
+      601 ataattatct attaattcct ctgacgaatc cataatggct cttctcacat cagaaaatgg
+      661 aatatcaggt agtaattcct ctaagtcata atttccgtat attcttttat tttttcgttt
+      721 tgcttggtaa agcattatgg ttaaatctga atttaattcc ttctgaggaa tgtatccttg
+      781 ttcataaagc tcttgtaacc attctccata aataaattct tgtttgggag gatgattcca
+      841 cggtaccatt tcttgctgaa taataattgt taattcaata tatcgtaagt tgcttttatc
+      901 tcctattttt ttttgaaata ggtctaattt ttttgtataa gtatttcttt actttgatct
+      961 gtcaatgggt tcagatacga cgactaaaaa gtcaagatca
+//
